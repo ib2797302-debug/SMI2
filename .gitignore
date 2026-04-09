@@ -1,50 +1,65 @@
 ```
-# Environment
-.env
-.env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-
-# Dependencies
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-dist/
-build/
-target/
-.gradle/
-
-# Compiled files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# Logs
+*.log
 
-# Compressed files
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+.venv/
+.env/
+pip-log.txt
+pipenv.lock
+requirements.txt.bak
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.installed.cfg
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.gcda
+*.gcno
+*.gcov
+*.so
+*.dylib
+*.dll
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.out
+*.class
+*.jar
+*.war
+*.ear
+*.swf
+*.par
+target/
+
+# Compression
 *.zip
 *.gz
 *.tar
@@ -67,4 +82,30 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Testing
+.coverage
+htmlcov/
+.nyc_output
+coverage/
+.junit-cache/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 ```
