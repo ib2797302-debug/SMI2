@@ -1,65 +1,62 @@
 ```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+.env.*
+
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+.Python
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # System files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Dependencies
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-env/
-ENV/
-.venv/
-.env/
-pip-log.txt
-pipenv.lock
-requirements.txt.bak
-
-# Build artifacts
-build/
-dist/
-*.egg-info/
-.installed.cfg
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.gcda
-*.gcno
-*.gcov
-*.so
-*.dylib
-*.dll
-*.exe
-*.o
-*.obj
-*.a
-*.lib
-*.out
-*.class
-*.jar
-*.war
-*.ear
-*.swf
-*.par
-target/
-
-# Compression
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -83,29 +80,24 @@ target/
 *.tar.xz
 *.tar.zst
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Testing
-.coverage
-htmlcov/
-.nyc_output
+# Coverage reports
 coverage/
-.junit-cache/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
+htmlcov/
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 ```
